@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="description" content="A considered collection of hand-selected luxury automobiles in New Delhi, opening shortly." />
+    <meta name="theme-color" content="#f3f0e8" />
+    <title>Classic Machines — Opening shortly</title>
+    <style>
+      @font-face { font-family: Inter; src: url("./inter-300.woff2") format("woff2"); font-weight: 300; font-display: swap; }
+      @font-face { font-family: Inter; src: url("./inter-500.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+      @font-face { font-family: Inter; src: url("./inter-600.woff2") format("woff2"); font-weight: 600; font-display: swap; }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; min-height: 100%; }
+      body { font-family: Inter, Arial, sans-serif; background: #f3f0e8; color: #191b1e; }
+      .page { position: relative; display: grid; min-height: 100svh; overflow: hidden; isolation: isolate; background: radial-gradient(circle at 76% 17%, rgba(154,111,54,.1), transparent 28rem), linear-gradient(135deg,#f7f3ea 0%,#ede6d8 100%); }
+      .page::before { position:absolute; inset:0; z-index:-2; content:""; background:linear-gradient(90deg,transparent 49.94%,rgba(25,27,30,.06) 50%,transparent 50.06%); }
+      .frame { position:absolute; inset:clamp(2rem,6vw,5rem); z-index:-1; border:1px solid rgba(25,27,30,.16); pointer-events:none; }
+      .grain { position:absolute; inset:0; z-index:-1; opacity:.2; pointer-events:none; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.14'/%3E%3C/svg%3E"); }
+      .rule { position:absolute; top:clamp(2rem,6vw,5rem); bottom:clamp(2rem,6vw,5rem); width:1px; background:rgba(25,27,30,.16); }
+      .rule-a { left:29%; } .rule-b { right:21%; }
+      .content { display:grid; align-content:space-between; width:min(calc(100% - 5rem),72rem); min-height:100svh; margin-inline:auto; padding-block:clamp(4rem,9vh,7rem); }
+      .wordmark { margin:0; font-size:.74rem; font-weight:600; letter-spacing:.28em; }
+      .location { margin:.6rem 0 0; color:#6f675d; font-size:.58rem; font-weight:500; letter-spacing:.2em; }
+      .copy { width:min(100%,50rem); padding-block:clamp(4rem,10vh,8rem); }
+      .kicker { margin:0 0 1.5rem; color:#8b6330; font-size:.65rem; font-weight:600; letter-spacing:.22em; }
+      h1 { margin:0; font-size:clamp(2.75rem,7.5vw,6.8rem); font-weight:300; letter-spacing:-.055em; line-height:.94; }
+      .description { width:min(100%,39rem); margin:clamp(2rem,4vw,3.5rem) 0 0; color:#56514a; font-size:clamp(1rem,1.8vw,1.22rem); font-weight:300; line-height:1.72; }
+      .status { display:flex; align-items:center; gap:.7rem; color:#686158; font-size:.62rem; font-weight:500; letter-spacing:.16em; text-transform:uppercase; }
+      .status-mark { width:.42rem; height:.42rem; border-radius:999px; background:#9a6f36; box-shadow:0 0 0 .3rem rgba(154,111,54,.12); }
+      .footnote { position:absolute; right:clamp(1.85rem,7vw,6rem); bottom:clamp(1.2rem,4vw,3.7rem); margin:0; color:#81786c; font-size:.52rem; letter-spacing:.2em; }
+      @media (max-width:40rem) { .content{width:min(calc(100% - 3.5rem),72rem)} .page::before,.rule{display:none} .description{max-width:30rem} }
+      @media (prefers-reduced-motion:reduce) { *{scroll-behavior:auto!important} }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <div class="grain" aria-hidden="true"></div><div class="frame" aria-hidden="true"></div>
+      <div class="rule rule-a" aria-hidden="true"></div><div class="rule rule-b" aria-hidden="true"></div>
+      <section class="content" aria-labelledby="opening-title">
+        <header><p class="wordmark">CLASSIC MACHINES</p><p class="location">CURATED AUTOMOBILES · NEW DELHI</p></header>
+        <div class="copy"><p class="kicker">THE COLLECTION IS BEING PREPARED</p><h1 id="opening-title">Chosen carefully.<br />Presented completely.</h1><p class="description">A considered collection of hand-selected luxury automobiles is taking shape. Every car will arrive inspected, documented, and described exactly as we found it.</p></div>
+        <div class="status"><span class="status-mark" aria-hidden="true"></span><span>Website under preparation</span></div>
+      </section>
+      <p class="footnote">NEW DELHI · INDIA</p>
+    </main>
+  </body>
+</html>
